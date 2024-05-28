@@ -11,6 +11,10 @@
 		D6C262402C04D4DD007AD63E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C2623F2C04D4DD007AD63E /* ContentView.swift */; };
 		D6C262422C04D4DF007AD63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C262412C04D4DF007AD63E /* Assets.xcassets */; };
 		D6C262452C04D4DF007AD63E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C262442C04D4DF007AD63E /* Preview Assets.xcassets */; };
+		D6D418432C04EF70002F62C4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D418422C04EF70002F62C4 /* OnboardingView.swift */; };
+		D6D418462C04F08B002F62C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D418452C04F08B002F62C4 /* Constants.swift */; };
+		D6D418492C04F210002F62C4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D418482C04F210002F62C4 /* LoginView.swift */; };
+		D6D4184C2C04F24F002F62C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4184B2C04F24F002F62C4 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D6C2623F2C04D4DD007AD63E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6C262412C04D4DF007AD63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C262442C04D4DF007AD63E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6D418422C04EF70002F62C4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		D6D418452C04F08B002F62C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D6D418482C04F210002F62C4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D6D4184B2C04F24F002F62C4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +59,10 @@
 		D6C2623C2C04D4DD007AD63E /* TEN10 Acai & Coffee */ = {
 			isa = PBXGroup;
 			children = (
-				D6C2623D2C04D4DD007AD63E /* TEN10_Acai___CoffeeApp.swift */,
+				D6D418442C04F062002F62C4 /* Application */,
+				D6D4183F2C04EF45002F62C4 /* Network */,
+				D6D4183E2C04EF33002F62C4 /* Utils */,
+				D6D4183D2C04EF28002F62C4 /* Views */,
 				D6C2623F2C04D4DD007AD63E /* ContentView.swift */,
 				D6C262412C04D4DF007AD63E /* Assets.xcassets */,
 				D6C262432C04D4DF007AD63E /* Preview Content */,
@@ -65,6 +76,63 @@
 				D6C262442C04D4DF007AD63E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6D4183D2C04EF28002F62C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6D4184A2C04F242002F62C4 /* Home */,
+				D6D418472C04F202002F62C4 /* Login */,
+				D6D418412C04EF5A002F62C4 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6D4183E2C04EF33002F62C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D6D418452C04F08B002F62C4 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D6D4183F2C04EF45002F62C4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D6D418412C04EF5A002F62C4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D6D418422C04EF70002F62C4 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D6D418442C04F062002F62C4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D6C2623D2C04D4DD007AD63E /* TEN10_Acai___CoffeeApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D6D418472C04F202002F62C4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D6D418482C04F210002F62C4 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D6D4184A2C04F242002F62C4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D6D4184B2C04F24F002F62C4 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D418432C04EF70002F62C4 /* OnboardingView.swift in Sources */,
 				D6C262402C04D4DD007AD63E /* ContentView.swift in Sources */,
 				D6C2623E2C04D4DD007AD63E /* TEN10_Acai___CoffeeApp.swift in Sources */,
+				D6D4184C2C04F24F002F62C4 /* HomeView.swift in Sources */,
+				D6D418492C04F210002F62C4 /* LoginView.swift in Sources */,
+				D6D418462C04F08B002F62C4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
