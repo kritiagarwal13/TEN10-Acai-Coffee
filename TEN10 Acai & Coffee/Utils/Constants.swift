@@ -14,7 +14,23 @@ struct Constants {
         static let welcomeButtonTitle = "Let's Get Started"
     }
     
+    struct TextConstants {
+        static let addToCart = "Add to cart"
+        static let bestsellers = "Bestseller"
+        static let coffee = "Coffee"
+        static let acaiBowls = "Acai Bowls"
+        static let pancakes = "Pancakes"
+        static let toasties = "Toasties"
+        static let treats = "Treats"
+        static let coldDrinks = "Cold Drinks"
+        static let overnightOats = "Overnight Oats"
+    }
+    
     struct ImageConstants {
         static let logoName = "Ten10_logo"
+        static let coffeeCover = "Ten10_coffee_cover"
+        static let wishlistIcon = "heart"
+        static let wishlistSelectedIcon = "heart.fill"
+        static let addToCartIcon = "bag.badge.plus"
     }
 }

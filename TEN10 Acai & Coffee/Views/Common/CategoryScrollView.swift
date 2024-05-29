@@ -14,54 +14,54 @@ struct CategoryScrollView: View {
                 Button {
                     print("sort bestsellers")
                 } label: {
-                    Text("Bestsellers")
+                    Text(Constants.TextConstants.bestsellers)
                         .font(.callout)
                 }
                 Button {
                     print("sort coffee")
                 } label: {
-                    Text("Coffee")
+                    Text(Constants.TextConstants.coffee)
                         .font(.callout)
                 }
                 Button {
                     print("sort Acai Bowls")
                 } label: {
-                    Text("Acai Bowls")
+                    Text(Constants.TextConstants.acaiBowls)
                         .font(.callout)
                 }
                 
                 Button {
                     print("sort Pancakes")
                 } label: {
-                    Text("Pancakes")
+                    Text(Constants.TextConstants.pancakes)
                         .font(.callout)
                 }
                 
                 Button {
                     print("sort toasties")
                 } label: {
-                    Text("Toasties")
+                    Text(Constants.TextConstants.toasties)
                         .font(.callout)
                 }
                 
                 Button {
                     print("sort treats")
                 } label: {
-                    Text("Treats")
+                    Text(Constants.TextConstants.treats)
                         .font(.callout)
                 }
                 
                 Button {
                     print("sort cold drinks")
                 } label: {
-                    Text("Cold Drinks")
+                    Text(Constants.TextConstants.coldDrinks)
                         .font(.callout)
                 }
                 
                 Button {
                     print("sort overnight oats")
                 } label: {
-                    Text("Overnight Oats")
+                    Text(Constants.TextConstants.overnightOats)
                         .font(.callout)
                 }
             }
