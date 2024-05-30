@@ -12,11 +12,10 @@ struct HomeView: View {
     var body: some View {
         VStack {
             NavbarView()
-            CategoryScrollView()
             
             ScrollView {
                 CoverView()
-                
+                CategoryScrollView()
                 ProductListCellView(title: "Flat White", price: "3.45")
                     .cornerRadius(10)
                 ProductListCellView(title: "Cappuccino", price: "3.60")
