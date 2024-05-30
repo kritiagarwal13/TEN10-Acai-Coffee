@@ -9,4 +9,4 @@ Where we offer a delightful selection of coffee, açaí bowls, toasties, treats,
 
 ![ten10-acai-bowls](https://github.com/kritiagarwal13/TEN10-Acai-Coffee/assets/25651879/ceab5e8f-7d36-48bc-9d18-b5c66342ca6f)
 
-©️Created with ❤️ in Ireland
+©️Created with ❤️ in 🇮🇪
